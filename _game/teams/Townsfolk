@@ -1,0 +1,6 @@
+**Townsfolk**
+__Basics__
+The Townsfolk Team wins when only members of the Townsfolk Team remain.
+
+__Formalized__
+Win Condition: @(Align:Townsfolk)
