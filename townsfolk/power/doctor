@@ -3,4 +3,4 @@ __Basics__
 The **doctor** chooses a player to protect during the night, granting them *basic defence* for the duration. They may not protect the same person on consecutive nights.
 
 __Formalized__
-Immediate Night: Protect @Selection from `Attacks` through Active Defense (~Phase) [Quantity: %Number%, Succession: No Target Succession]
+End Night: Protect @Selection from `Attacks` through Active Defense (~Phase) [Quantity: %Number%, Succession: No Target Succession]
