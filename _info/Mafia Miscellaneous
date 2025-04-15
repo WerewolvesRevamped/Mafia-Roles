@@ -1,0 +1,6 @@
+**Mafia Miscellaneous**
+@Query;Class=mafia,Category=miscellaneous,Type=default;$.Emoji $.Name@
+
+@Query;Class=mafia,Category=miscellaneous,Type=limited;$.Emoji *$.Name*@
+
+@Query;Class=mafia,Category=miscellaneous,Type=transformation;$.Emoji $.Name (T)@
