@@ -1,0 +1,6 @@
+**Neutral Miscellaneous** 
+@Query;Class=neutral,Category=miscellaneous,Type=default;$.Emoji $.Name@
+
+@Query;Class=neutral,Category=miscellaneous,Type=limited;$.Emoji *$.Name*@
+
+@Query;Class=neutral,Category=miscellaneous,Type=transformation;$.Emoji $.Name (T)@

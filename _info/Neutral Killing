@@ -1,0 +1,6 @@
+**Neutral Killing** 
+@Query;Class=neutral,Category=killing,Type=default;$.Emoji $.Name@
+
+@Query;Class=neutral,Category=killing,Type=limited;$.Emoji *$.Name*@
+
+@Query;Class=neutral,Category=killing,Type=transformation;$.Emoji $.Name (T)@

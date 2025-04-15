@@ -1,0 +1,6 @@
+**Mafia Power**
+@Query;Class=mafia,Category=power,Type=default;$.Emoji $.Name@
+
+@Query;Class=mafia,Category=power,Type=limited;$.Emoji *$.Name*@
+
+@Query;Class=mafia,Category=power,Type=transformation;$.Emoji $.Name (T)@
