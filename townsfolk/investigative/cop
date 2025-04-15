@@ -1,3 +1,10 @@
 **Cop** | Townsfolk Investigative
 __Basics__
 The **cop** may check one player per night to see if they are a member of the mafia. They will see a player as either "mafia" or "not mafia".
+
+__Formalized__
+End Night: [Quantity: %Number%]
+  • Process: Alignment Investigate @Selection
+  • Evaluate:
+    ‣ @Result is `Mafia`[alignment]: `Mafia`
+    ‣ Otherwise: `Not Mafia`

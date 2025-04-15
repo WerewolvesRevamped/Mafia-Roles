@@ -7,3 +7,7 @@ Mafia
 
 __Formalized__
 Unique Group
+Passive Start Night: Create `Mafia` Poll in #Mafia
+On Poll Closed:
+  • Process: Attack @Winner
+  • Evaluate: Reveal `@Executor is attacking - @Result` to #Mafia
