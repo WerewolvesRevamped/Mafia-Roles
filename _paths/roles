@@ -1,1 +1,10 @@
 townsfolk/power
+townsfolk/investigative
+townsfolk/killing
+townsfolk/miscellaneous
+
+neutral/killing
+neutral/miscellaneous
+
+mafia/power
+mafia/miscellaneous
