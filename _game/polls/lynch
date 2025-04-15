@@ -1,0 +1,8 @@
+**Lynch** | Poll
+Available Options: @All, Hammer
+Allowed Voters: @All
+Hammer: Yes
+Passive Start Day: Create Poll in #voting_booth [Temporal: Day 1+]
+On Poll Closed:
+  • Lynch @Winner
+  • Announce `@Winner was lynched.`
