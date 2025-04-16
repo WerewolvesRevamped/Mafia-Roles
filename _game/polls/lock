@@ -1,0 +1,9 @@
+**Lock** | Poll
+Available Options: Abstain
+Allowed Voters: @All
+Passive Start Night:
+  • Lock #Town-Square
+  • Reveal `The channel has been locked for the night!` to #Town-Square
+Passive Start Day:
+  • Unlock #Town-Square
+  • Reveal `The channel has been unlocked!` to #Town-Square
