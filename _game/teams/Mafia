@@ -1,0 +1,6 @@
+**Mafia**
+__Basics__
+The Mafia Team wins when only members of the Mafia Team remain.
+
+__Formalized__
+Win Condition: @(Align:Mafia)
