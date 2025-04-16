@@ -4,7 +4,7 @@ The **cop** may check one player per night to see if they are a member of the ma
 
 __Formalized__
 End Night: [Quantity: %Number%]
-  • Process: Alignment Investigate @Selection (SD)
+  • Process: Alignment Investigate @Selection (WD, SD)
   • Evaluate:
     ‣ @Result is `Mafia`[alignment]: `Mafia`
     ‣ Otherwise: `Not Mafia`
