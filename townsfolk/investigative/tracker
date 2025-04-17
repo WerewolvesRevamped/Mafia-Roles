@@ -1,0 +1,3 @@
+**Tracker** | Townsfolk Investigative
+__Basics__
+The **tracker** can see who a player targets in the night phase (but not what action the player performed). If the player did not visit, the **tracker** will be told that the target did not visit anyone. If the **tracker** is roleblocked, no feedback will be given.  
