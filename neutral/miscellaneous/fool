@@ -1,6 +1,6 @@
 **Fool** | Neutral Miscellaneous
 __Basics__
-Wins if voted out. The game ends when the **fool** is lynched. 
+If the **fool** is lynched, they win and the game ends.
 
 __Formalized__
 On Lynch: Win
