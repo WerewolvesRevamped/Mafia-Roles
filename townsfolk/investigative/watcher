@@ -1,3 +1,17 @@
 **Watcher** | Townsfolk Investigative
 __Basics__
 The **watcher** may target one player per night and will see who visits that player. The **watcher** may not target the same player on consecutive nights.
+
+__Formalized__
+Passive Start Night: {Visitless}
+  • Process:
+    ‣ Untarget
+    ‣ Remove `SpyData` from @(AttrSelf:SpyData) 
+    ‣ Set Counter to 0
+Third Pre-End Night: [Quantity: %Number%, Succession: No Target Succession] |spy.1|
+  • Process: Set Counter to 1
+  • Evaluate: Target @Selection (Player)
+On @Target Visited: Process: Apply `SpyData` to @Visitor (~Permanent) {Visitless}
+Passive Start Day: [Condition: @Self->Counter is 1]
+  • @(AttrSelf:SpyData)->Count > 0: Learn `@Target was visited by @(AttrSelf:SpyData)`
+  • Otherwise: Learn `@Target was not visited by anyone`
