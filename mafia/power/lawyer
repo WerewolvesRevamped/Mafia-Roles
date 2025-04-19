@@ -3,4 +3,5 @@ __Basics__
 The **lawyer** may choose one player each night to apply a *basic disguise* to. The player is disguised as an in-play town role. The **lawyer** may not disguise the same person on consecutive nights.
 
 __Formalized__
+Starting: Join #Mafia
 Pre-End Night: Weakly Disguise @Selection as @(AliveOnly:False,OrigAlign:Townsfolk)->RandomPlayer->OriginalRole (~NextNight) [Quantity: %Number%, Succession: No Target Succession] |lawyer.1|
