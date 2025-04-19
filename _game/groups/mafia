@@ -8,11 +8,11 @@ __Formalized__
 Unique Group
 Passive Start Night:
   • Create `Mafia` Poll in #Mafia
-  • Lock @Self
-  • Reveal `The channel has been locked for the night!` to @Self
-Passive Start Day:
   • Unlock @Self
   • Reveal `The channel has been unlocked!` to @Self
+Passive Start Day:
+  • Lock @Self
+  • Reveal `The channel has been locked for the day!` to @Self
 On Poll Closed:
   • Process: Attack @Winner
   • Evaluate: Reveal `@Executor is attacking - @Result` to #Mafia
