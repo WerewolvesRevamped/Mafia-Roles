@@ -1,3 +1,8 @@
 **Veteran** | Townsfolk Killing
 __Basics__
 The **veteran** may choose to alert at night. They will kill any player who visits them whilst alert.
+
+__Formalized__
+Passive Start Day: Set Counter to 0
+Fourth Pre-End Night: Set Counter to 1 |veteran.1|
+On Visited: Process: Kill @Visitor [Condition: @Self->Counter is 1]
