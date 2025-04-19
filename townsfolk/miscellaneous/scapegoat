@@ -1,3 +1,11 @@
 **Scapegoat** | Townsfolk Miscellaneous
 __Basics__
 The **scapegoat** believes themself to be a civilian. The first time the **scapegoat** would die from a *basic attack*, they will survive. The attacker will learn the **scapegoat**'s role, and the next time the attacker would be lynched, the **scapegoat** is lynched in their place.
+
+__Formalized__
+Identity: Civilian
+Starting: Process: Protect @Self from `Attacks` through Partial Defense (~Permanent)
+On Partial Defense:
+  • Process:
+    ‣ Reveal `@Self is a **Scapegoat**` to @Attacker
+    ‣ Apply `ScapegoatDefense` to @Attacker
