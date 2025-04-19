@@ -3,4 +3,4 @@ __Basics__
 The **dancer** may choose one player each night to roleblock. Roleblocked players are not able to perform any night actions. The **dancer** cannot roleblock the same player on consecutive nights. 
 
 __Formalized__
-Second Pre-End Night: Obstruct @Selection (~NextDay) |role_block.1|
+Second Pre-End Night: Obstruct @Selection (~NextDay) [Quantity: %Number%, Succession: No Target Succession] |role_block.1|
