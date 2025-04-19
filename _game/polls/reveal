@@ -3,4 +3,4 @@ Available Options: Abstain
 Allowed Voters: @All
 On @All Death:
   • Process: Role Investigate @This (SD)
-  • Evaluate: Announce `@This was @Result`
+  • Evaluate: Announce `@This was @Result->Role`
