@@ -1,3 +1,7 @@
 **Sleepwalker** | Townsfolk Miscellaneous
 __Basics__
 The **sleepwalker** believes themself to be a civilian. Every night, the **sleepwalker** unknowingly visits a random player.
+
+__Formalized__
+Identity: Civilian
+Passive End Night: Process: Target @All->RandomPlayer (Player)
