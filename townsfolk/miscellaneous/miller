@@ -1,3 +1,8 @@
 **Miller** | Townsfolk Miscellaneous
 __Basics__
 The **miller** believes themself to be a civilian, but has a *true disguise* of mafioso. If there are no mafiosos in the setup, the **miller**'s *true disguise* will be an in-play mafia role. 
+
+__Formalized__
+Identity: Civilian
+Starting: Process: Strongly Disguise @Self as `Mafioso` [Condition: @(Role:Mafioso) exists]
+Starting: Process: Strongly Disguise @Self as @(Align:Mafia)->RandomPlayer->Role [Condition: not (@(Role:Mafioso) exists)]
