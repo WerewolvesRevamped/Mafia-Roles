@@ -1,3 +1,17 @@
 **Tracker** | Townsfolk Investigative
 __Basics__
 The **tracker** may target one player per night and will see who the player visits. The **tracker** may not target the same player on consecutive nights.
+
+__Formalized__
+Passive Start Night: {Visitless}
+  • Process:
+    ‣ Untarget
+    ‣ Remove `SpyData` from @(AttrSelf:SpyData) 
+    ‣ Set Counter to 0
+Third Pre-End Night: [Quantity: %Number%, Succession: No Target Succession] |spy.1|
+  • Process: Set Counter to 1
+  • Evaluate: Target @Selection (Player)
+On @Target Action: Process: Apply `SpyData` to @ActionTarget (~Permanent) {Visitless}
+Passive Start Day: [Condition: @Self->Counter is 1]
+  • @(AttrSelf:SpyData)->Count > 0: Learn `@Target visited @(AttrSelf:SpyData)`
+  • Otherwise: Learn `@Target did not visit anyone`
