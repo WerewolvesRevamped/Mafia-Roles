@@ -1,4 +1,6 @@
 **Reveal** | Poll
 Available Options: Abstain
 Allowed Voters: @All
-On @All Death: Announce `@This was @This->Role`
+On @All Death:
+  • Process: Role Investigate @This (SD)
+  • Evaluate: Announce `@This was @Result`
