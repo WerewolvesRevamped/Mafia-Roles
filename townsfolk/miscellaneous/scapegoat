@@ -7,5 +7,5 @@ Identity: Civilian
 Starting: Process: Protect @Self from `Attacks` through Partial Defense (~Permanent)
 On Partial Defense:
   • Process:
-    ‣ Reveal `@Self is a **Scapegoat**` to @Attacker
+    ‣ Reveal `@Self is a **Scapegoat**` to @AttackLocation
     ‣ Apply `ScapegoatDefense` to @Attacker (~Persistent)
