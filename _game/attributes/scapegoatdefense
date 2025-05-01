@@ -3,5 +3,7 @@ __Basics__
 A technical attribute used by the scapegoat for the lynch defense it grants its attacker.
 
 __Formalized__
-Starting: Protect @Self from `Lynches` through Active Defense (~UntilUse)
+Starting: Target @ThisAttr->Source
+Starting: Protect @Self from `Lynches` through Active Defense (~UntilUseAttribute)
 On Active Defense: Lynch @ThisAttr->Source
+On @Target Death: Remove @ThisAttr from @Self
