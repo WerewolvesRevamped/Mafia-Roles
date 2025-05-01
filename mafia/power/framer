@@ -4,4 +4,4 @@ The **framer** may choose one player each night to apply a *basic disguise* to. 
 
 __Formalized__
 Starting: Join #Mafia
-Pre-End Night: Weakly Disguise @Selection as @(AliveOnly:False,OrigAlign:Mafia)->RandomPlayer->OriginalRole (~NextNight) [Quantity: %Number%, Succession: No Target Succession] |framer.1|
+Pre-End Night: Weakly Disguise @Selection as @(AliveOnly:False,OrigAlign:Mafia)->RandomPlayer->OriginalRole (~NextDay) [Quantity: %Number%, Succession: No Target Succession] |framer.1|
