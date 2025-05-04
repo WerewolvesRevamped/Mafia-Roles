@@ -4,3 +4,4 @@ When there is no other bomb active, the **bomber** may place a bomb on a player 
 
 __Formalized__
 End Night: Apply `Bomb` to @Selection (~Persistent) [Quantity: %Number%, Condition: not (@(AttrSelf:Bomb) exists)]
+Passive: Win [Condition: @All->Count is 1]
