@@ -3,5 +3,5 @@ __Basics__
 The attribute of the Bomber. Bombed players will explode at the end of the night, killing all visitors.
 
 __Formalized__
-On Visited: Apply `Bomb` to @Visitor (~Persistent) 
-Passive End Night: Kill @Self
+On Visited: Apply `Explosion` to @Visitor (~Persistent) 
+Passive End Night: Attack @Self
