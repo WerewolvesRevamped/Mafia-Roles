@@ -1,6 +1,6 @@
 **Bomber** | Neutral Killing
 __Basics__
-When there is no other bomb active, the **bomber** may place a bomb on a player during the night. At the end of the following night, the bomb will explode, dealing a *basic attack* to the player and all other players visiting them.
+When there is no other bomb active, the **bomber** may place a bomb on a player during the Day. At the end of the following night, the bomb will explode, dealing a *basic attack* to the player and all other players visiting them.
 
 __Formalized__
 Start Day: Apply `Bomb` to @Selection (~Phase) [Quantity: %Number%, Condition: not (@(AttrSelf:Bomb) exists)]
