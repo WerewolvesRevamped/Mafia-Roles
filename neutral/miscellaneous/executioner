@@ -9,3 +9,5 @@ Starting:
 On @Target Death:
   • @DeathType is `lynch`: Win
   • Otherwise: Role Change @Self to `Fool`
+Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) or (@(Align:Townfolk)->Count is 0) and (@(Align:Neutral)->Count is 1)]
+Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) and (@(Align:Townfolk)->Count is 0) and (@(Align:Neutral)->Count is 2)]
