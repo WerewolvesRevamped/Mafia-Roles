@@ -4,3 +4,5 @@ If the **fool** is lynched, they win and the game ends.
 
 __Formalized__
 On Lynch: Win
+Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) or (@(Align:Townfolk)->Count is 0) and (@(Align:Neutral)->Count is 1)]
+Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) and (@(Align:Townfolk)->Count is 0) and (@(Align:Neutral)->Count is 2)]
