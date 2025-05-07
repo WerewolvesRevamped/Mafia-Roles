@@ -3,4 +3,5 @@ __Basics__
 If the **fool** is lynched, they win and the game ends.
 
 __Formalized__
+Inherit: `Autolose`
 On Lynch: Win
