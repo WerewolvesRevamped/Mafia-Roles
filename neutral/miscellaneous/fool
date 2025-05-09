@@ -1,6 +1,7 @@
 **Fool** | Neutral Miscellaneous
 __Basics__
 If the **fool** is lynched, they win and the game ends.
+The **fool** autoloses if the remaining living players are all members of the same team, and/or roles that autolose under this condition.
 
 __Formalized__
 Inherit: `Autolose`
