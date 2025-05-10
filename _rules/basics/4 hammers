@@ -1,0 +1,2 @@
+**Hammers**
+A Hammer is the term for when a day ends prematurely, for one of two reasons. The first type of hammer occurs if a majority of votes have been cast for a single player - e.g., in a game state where 8 people are alive, 5 have voted for the same person. The second type of hammer occurs if all votes have been cast - e.g., in a game state where 8 people are alive, all 8 have voted (even if they've all voted for different players).
