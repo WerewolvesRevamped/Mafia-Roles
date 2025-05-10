@@ -1,3 +1,4 @@
 **Autolose** | Ability Set
-Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) or (@(Align:Townsfolk)->Count is 0) and (@(Align:Neutral)->Count is 1)]
-Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) and (@(Align:Townsfolk)->Count is 0) and (@(Align:Neutral)->Count is 2)]
+Starting: Apply `Autolose` to @Self
+Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) or (@(Align:Townsfolk)->Count is 0) and (@(Align:Neutral,Attr:!Autolose)->Count is 0)]
+Passive: Descend [Condition: (@(Align:Mafia)->Count is 0) and (@(Align:Townsfolk)->Count is 0) and (@(Align:Neutral,Attr:!Autolose)->Count is 1)]
