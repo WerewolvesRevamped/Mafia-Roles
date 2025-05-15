@@ -8,6 +8,6 @@ On Poll Closed:
   • Announce `@Winner was lynched.`
 
 __Formalized__
-On Vote Change: Announce @Voter changed vote to @NewVoteText
-On Vote Add: Announce @Voter voted @VoteText
-On Vote Remove: Announce @Voter unvoted @VoteText
+On Vote Change: Reveal `@Voter changed vote to @NewVoteText` to #voting-log
+On Vote Add: Reveal `@Voter voted @VoteText` to #voting-log
+On Vote Remove: Reveal `@Voter unvoted @VoteText` to #voting-log
