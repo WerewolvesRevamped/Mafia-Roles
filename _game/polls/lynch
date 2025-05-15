@@ -6,3 +6,8 @@ Passive Start Day: Create Poll in #voting_booth [Temporal: Day 1+]
 On Poll Closed:
   • Lynch @Winner
   • Announce `@Winner was lynched.`
+
+__Formalized__
+On Vote Change: Announce @Voter changed vote to @NewVoteText
+On Vote Add: Announce @Voter voted @VoteText
+On Vote Remove: Announce @Voter unvoted @VoteText
