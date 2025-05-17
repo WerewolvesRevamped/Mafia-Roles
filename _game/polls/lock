@@ -4,10 +4,6 @@ Allowed Voters: @All
 Passive Start Night:
   • Lock #Town-Square
   • Reveal `The channel has been locked for the night!` to #Town-Square
-  • Lock #Tavern
-  • Reveal `The channel has been locked for the night!` to #Tavern
 Passive Start Day:
   • Unlock #Town-Square
   • Reveal `The channel has been unlocked!` to #Town-Square
-  • Unlock #Tavern
-  • Reveal `The channel has been unlocked!` to #Tavern
