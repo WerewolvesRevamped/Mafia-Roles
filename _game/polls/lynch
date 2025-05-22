@@ -9,3 +9,4 @@ On Poll Closed:
 On Vote Change: Reveal `@Voter changed vote to @NewVoteText` to #voting_log
 On Vote Add: Reveal `@Voter voted @VoteText` to #voting_log
 On Vote Remove: Reveal `@Voter unvoted @VoteText` to #voting_log
+On Hammer: Reveal `Hammer has occured` to #voting_log
