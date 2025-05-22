@@ -1,0 +1,2 @@
+**Alignments**
+There are three alignments: town, mafia, and neutrals. The townsfolk have to eliminate all the mafia; the mafia have to eliminate all the townsfolk. All neutrals have unique win conditions, and each neutral in a game is part of its own team. Some neutrals need to be eliminated for the townsfolk or mafia to win - roles like bomber, for example - whilst some neutrals, like fool, automatically lose if there's only one other team remaining.
