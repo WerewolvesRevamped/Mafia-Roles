@@ -4,10 +4,3 @@ The **mafioso** is a member of the mafia with no special abilities. If there are
 
 __Formalized__
 Starting: Join #Mafia
-Passive Start Night: [Attribute: has `MafiaExecutor`]
-  • Process:
-    ‣ Create `Mafia` Poll in #Mafia
-    ‣ Remove `MafiaExecutor` from @Self
-On Poll Closed:
-  • Process: Attack @Winner
-  • Evaluate: Reveal `@Executor is attacking - @Result` to #Mafia
