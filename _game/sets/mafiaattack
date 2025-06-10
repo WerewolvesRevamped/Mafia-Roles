@@ -1,0 +1,8 @@
+**Mafia Attack** | Ability Set
+Passive Start Night: [Attribute: has `MafiaExecutor`]
+  • Process:
+    ‣ Create `Mafia` Poll in #Mafia
+    ‣ Remove `MafiaExecutor` from @Self
+On Poll Closed:
+  • Process: Attack @Winner
+  • Evaluate: Reveal `@Executor is attacking - @Result` to #Mafia
