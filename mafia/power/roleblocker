@@ -3,5 +3,6 @@ __Basics__
 The **roleblocker** may choose one player each night to roleblock. Roleblocked players are not be able to perform any night actions. The **roleblocker** cannot roleblock the same player on consecutive nights. 
 
 __Formalized__
+Inherit: `MafiaAttack`
 Starting: Join #Mafia
 Second Pre-End Night: Obstruct @Selection (~NextDay) |role_block.1|
