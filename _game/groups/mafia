@@ -10,13 +10,8 @@ Roleblocker
 
 __Formalized__
 Unique Group
-Passive Start Night:
-  • Create `Mafia` Poll in #Mafia
-  • Unlock @Self
-  • Reveal `The channel has been unlocked!` to @Self
+Passive End Day: Process: Apply `MafiaExecutor` to @(Role:Mafioso)->RandomPlayer [Condition: @(Role:Mafioso)->Count > 0]
+Passive End Day: Process: Apply `MafiaExecutor` to @(Group:Mafia)->RandomPlayer [Condition: @(Role:Mafioso)->Count is 0]
 Passive Start Day:
   • Lock @Self
   • Reveal `The channel has been locked for the day!` to @Self
-On Poll Closed:
-  • Process: Attack @Winner
-  • Evaluate: Reveal `@Executor is attacking - @Result` to #Mafia
