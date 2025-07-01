@@ -5,4 +5,4 @@ Passive Start Night: [Attribute: has `MafiaExecutor`]
     ‣ Remove `MafiaExecutor` from @Self
 On Poll Closed:
   • Process: Attack @Winner
-  • Evaluate: Reveal `@Executor is attacking - @Result` to #Mafia
+  • Evaluate: Reveal `@Self is attacking - @Result` to #Mafia
