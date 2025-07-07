@@ -17,4 +17,4 @@ Passive Start Day:
   • Reveal `The channel has been locked for the day!` to @Self
 Passive Start Night:
   • Unlock @Self
-  • Reveal `The channel has been unlocked!` to @Self
+  • Reveal `$phname has begun, the channel has been unlocked!` to @Self
