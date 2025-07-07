@@ -6,4 +6,4 @@ Passive Start Night:
   • Reveal `The channel has been locked for the night!` to #Town-Square
 Passive Start Day:
   • Unlock #Town-Square
-  • Reveal `The channel has been unlocked!` to #Town-Square
+  • Reveal `$phname has begun, the channel has been unlocked!` to #Town-Square
