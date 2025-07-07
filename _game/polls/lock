@@ -7,3 +7,4 @@ Passive Start Night:
 Passive Start Day:
   • Unlock #Town-Square
   • Reveal `$phname has begun, the channel has been unlocked!` to #Town-Square
+  • Reveal `$phname has begun!` to #Voting-Log
