@@ -15,3 +15,6 @@ Passive End Day: Process: Apply `MafiaExecutor` to @(Group:Mafia)->RandomPlayer 
 Passive Start Day:
   • Lock @Self
   • Reveal `The channel has been locked for the day!` to @Self
+Passive Start Night:
+  • Unlock @Self
+  • Reveal `$phname has begun, the channel has been unlocked!` to @Self
