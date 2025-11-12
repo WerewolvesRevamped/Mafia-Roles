@@ -1,0 +1,37 @@
+{
+    "comment_1": "Generic Default Prompts",
+    "investigating.role.1": "Which player would you like to investigate?",
+    "investigating.attribute.1": "Which player would you like to investigate?",
+    "disguising.weakly.1": "You may weakly disguise yourself. Which role would you like to disguise yourself as?",
+    "disguising.weakly.2": "You may weakly disguise another player. Please specify a player and a role, separated by `;`.",
+    "disguising.strongly.1": "You may strongly disguise yourself. Which role would you like to disguise yourself as?",
+    "disguising.strongly.2": "You may strongly disguise another player. Please specify a player and a role, separated by `;`.",
+    "killing.attack.1": "Who do you want to attack?",
+    "targeting.target.1": "You may submit a new target.",
+    "targeting.target.player": "Who would you like to target?",
+    "targeting.target.role": "Which role would you like to target?",
+    "protecting.absence.1": "Who do you want to sleep with?",
+    "choices.choosing": "You may choose one of the options",
+    "manipulating.absolute.2": "Which two players would you like to manipulate the vote of?",
+    "poll.votes.1": "Which player would you like to manipulate the starting votes of?",
+    "process_evaluate.role": "Please submit a role.",
+    "process_evaluate.player": "Please submit a player.",
+    "protecting.active_defense.1": "Who would you like to protect?",
+    "role_block.1": "You may choose a player to role-block.",
+    "spy.1": "You may choose a player to spy on.",
+    
+    "comment_2": "Restriction Messages",
+    "succession.target": "You may not select the same target two times in a row. You may resubmit another target as a reply to the original prompt.",
+    "attribute.lacks": "You may only use this ability on targets __without__ a certain attribute.",
+    "attribute.has": "You may only use this ability on targets __with__ a certain attribute.",
+    "condition": "Invalid submission. You likely submitted an invalid value. If necessary, please ask Hosts for clarification!",
+    
+    "comment_3": "Generic Custom Prompts",
+    "targeting.emergency.player": "Once per game, you may change your target a second time in a phase. Reply to this prompt to do so and ignore the prompt if you do not want to use your emergency use yet.",
+    "disguising.emergency": "Once per game, you may change your disguise a second time in a phase. Reply to this prompt to do so and ignore the prompt if you do not want to use your emergency use yet.",
+    "granting.resign": "You may resign from your position during any phase.",
+    
+    "framer.1": "You may choose a player to disguise as an in-play mafia role.",
+    "lawyer.1": "You may choose a player to disguise as an in-play town role.",
+    "veteran.1": "Would you like to stay alert tonight?"
+}
