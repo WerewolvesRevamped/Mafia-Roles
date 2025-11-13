@@ -4,5 +4,5 @@ The **veteran** may choose to alert at night. They will kill any player who visi
 
 __Formalized__
 Passive Start Day: Set Counter to 0
-Fourth Pre-End Night: Set Counter to 1 |veteran.1|
+Fourth Pre-End Night: Set Counter to 1 [Quantity: %Number%] |veteran.1|
 On Visited: Process: Attack @Visitor [Condition: @Self->Counter is 1]
