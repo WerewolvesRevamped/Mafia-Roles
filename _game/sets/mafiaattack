@@ -1,5 +1,5 @@
 **Mafia Attack** | Ability Set
-Passive Start Phase: [Attribute: has `MafiaExecutor`, Temporal: Night 2+]
+Passive Start Phase: [Attribute: has `MafiaExecutor`, Temporal: Night 2+, Temporal: Night]
   • Process:
     ‣ Create `Mafia` Poll in #Mafia
     ‣ Remove `MafiaExecutor` from @Self
