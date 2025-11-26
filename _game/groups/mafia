@@ -10,8 +10,8 @@ Roleblocker
 
 __Formalized__
 Unique Group
-Passive End Day: Process: Apply `MafiaExecutor` to @(Role:Mafioso)->RandomPlayer [Condition: @(Role:Mafioso)->Count > 0]
-Passive End Day: Process: Apply `MafiaExecutor` to @(Group:Mafia)->RandomPlayer [Condition: @(Role:Mafioso)->Count is 0]
+Passive Start Night: Process: Apply `MafiaExecutor` to @(Role:Mafioso)->RandomPlayer [Condition: @(Role:Mafioso)->Count > 0]
+Passive Start Night: Process: Apply `MafiaExecutor` to @(Group:Mafia)->RandomPlayer [Condition: @(Role:Mafioso)->Count is 0]
 Passive Start Day:
   • Lock @Self
   • Reveal `The channel has been locked for the day!` to @Self
